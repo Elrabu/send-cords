@@ -1,0 +1,12 @@
+JavaFX Application Thread INFO  example.GuiDriver - Name value 't' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Name value 'te' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Name value 'tes' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Name value 'test' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Age value '' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Age value '1' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Name value '' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Name value '' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Age value '' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - Age value '' has been entered
+JavaFX Application Thread INFO  example.GuiDriver - re-setting name and age field
+JavaFX Application Thread INFO  example.GuiDriver - Terminating application
