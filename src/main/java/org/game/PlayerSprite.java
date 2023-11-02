@@ -21,14 +21,17 @@ public class PlayerSprite {
     }
 
     public void  moveH(double n ){
+
         x += n;
     }
 
     public void  moveV(double n){
+
         y += n;
     }
 
     public void setX(double n) {
+
         x = n;
     }
 
@@ -37,6 +40,7 @@ public class PlayerSprite {
     }
 
     public double getX() {
+
         return x;
     }
 
