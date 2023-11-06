@@ -20,7 +20,7 @@ public class PlayerFrame extends JFrame{
     private int playerID;
     private ReadFromServer rfsRunnable;
     private WriteToServer wtsRunnable;
-    private String hostIpAdress = "";
+    private String hostIpAdress = "localhost";
 
     public PlayerFrame(int w, int h){
         width = w;
