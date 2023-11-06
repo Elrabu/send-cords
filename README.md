@@ -1,4 +1,4 @@
-# How to make send-cords work
+# How to make send-cords work:
 
 - For the Host/Player#1:
   - change IP Address in the class "PlayerFrame" from localhost to your IP-Address
