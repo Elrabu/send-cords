@@ -20,7 +20,7 @@ public class PlayerFrame extends JFrame{
     private int playerID;
     private ReadFromServer rfsRunnable;
     private WriteToServer wtsRunnable;
-
+    private String hostIpAdress = "";
 
     public PlayerFrame(int w, int h){
         width = w;
@@ -128,7 +128,7 @@ public class PlayerFrame extends JFrame{
 
     private void connectToServer() {
         try {
-            socket = new Socket("localhost", 45371);                //Connect to the Server
+            socket = new Socket(hostIpAdress, 45371);                //Connect to the Server
             DataInputStream in = new DataInputStream(socket.getInputStream());
             DataOutputStream out = new DataOutputStream(socket.getOutputStream());
             playerID = in.readInt();
