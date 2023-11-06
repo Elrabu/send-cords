@@ -72,10 +72,10 @@ public class GameServer {
 
             }
 
-            System.out.println("No longer accpeting connections");
+            System.out.println("No longer accepting connections");
 
         }catch (IOException ex){
-            System.out.println("IOExcpetion from acceptConnect");
+            System.out.println("IOException from acceptConnect");
         }
     }
 

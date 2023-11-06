@@ -186,7 +186,6 @@ public class PlayerFrame extends JFrame{
                 System.out.println("IOException from waitForStartMsg()");
             }
         }
-
     }
 
     private class WriteToServer implements Runnable {
