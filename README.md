@@ -1,5 +1,5 @@
-# send-cords
-To make this work 
+# How to make send-cords work
+
 - For the Host/Player#1:
   - change IP Address in the class "PlayerFrame" from localhost to your IP-Address
   - Run the "GameServer" class and the "PlayerFrame" class.
